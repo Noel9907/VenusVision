@@ -84,7 +84,7 @@ export default function AboutSection() {
           <div className="relative">
             <div className="relative overflow-hidden rounded-2xl">
               <img
-                src="./22.jpg"
+                src="./s.png"
                 alt="Venus Vision Photography Studio"
                 className="w-full h-96 lg:h-[500px] object-cover"
               />

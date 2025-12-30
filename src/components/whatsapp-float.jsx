@@ -1,4 +1,3 @@
-import { MessageCircle, Phone } from "lucide-react";
 import { useState } from "react";
 
 export default function WhatsAppFloat() {
@@ -32,7 +31,7 @@ export default function WhatsAppFloat() {
         <div className="absolute inset-0 bg-green-400 rounded-full animate-ping opacity-20"></div>
         <div className="absolute inset-0 bg-green-400 rounded-full animate-pulse opacity-30"></div>
 
-        <MessageCircle className="w-6 h-6 text-white relative z-10" />
+        <img src="/wh.svg" alt="WhatsApp" className="w-6 h-6 relative z-10" />
 
         {/* Tooltip */}
         <div className="absolute right-full mr-3 top-1/2 transform -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none">

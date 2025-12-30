@@ -15,7 +15,7 @@ export default function ParallaxHero() {
       <motion.div
         className="absolute inset-0 bg-cover bg-center z-0"
         style={{
-          backgroundImage: "url('./22.jpg')",
+          backgroundImage: "url('./i.png')",
           y, // actual parallax!
         }}
       />
