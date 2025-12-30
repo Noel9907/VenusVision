@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/VenusVision/',
+  base: '/',
   server: {
     host: true, // <- allow external access (important for tunneling)
     port: 4000, // or whatever you're using
