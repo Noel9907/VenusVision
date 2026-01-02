@@ -4,7 +4,7 @@ export default function WhatsAppFloat() {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleWhatsAppClick = () => {
-    const phoneNumber = "9194472 12414"; // no '+'
+    const phoneNumber = "919447212414"; // no '+'
     const message =
       "Hi! I'm interested in your wedding photography services. I'd love to discuss my upcoming event with you.";
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
